@@ -6,8 +6,6 @@ public class Driver {
     public Driver(final Vehicle vehicle){
         this.vehicle = vehicle;
     }
-
-    @Override
     public void increaseSpeed(){
         vehicle.accelerate();
     }

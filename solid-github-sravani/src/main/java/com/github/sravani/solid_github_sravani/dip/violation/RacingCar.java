@@ -10,9 +10,7 @@ public class RacingCar {
         this.maxFuel = maxFuel;
         remainingFuel = maxFuel;
     }
-    
 
-    @Override
     public void accelerate(){
         power++;
         remainingFuel--;

@@ -11,7 +11,7 @@ public class RacingCar implements Vehicle{
         remainingFuel = maxFuel;
     }
     
-    @Override
+    //@Override
     public void accelerate() {
         power++;
         remainingFuel--;

@@ -7,8 +7,7 @@ public class Pilot {
     public Pilot(){
         this.vehicle = new RacingCar(100);
     }
-    
-    @Override
+
     public void increaseSpeed(){
         vehicle.accelerate();
     }
